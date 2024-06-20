@@ -5,7 +5,7 @@ import sys
 
 models = {}
 tokenizers = {}
-def get_bert_feature(text, word2ph, device=None, model_id='./tohoku-nlp/bert-base-japanese-v3'):
+def get_bert_feature(text, word2ph, device=None, model_id='tohoku-nlp/bert-base-japanese-v3'):
     global model
     global tokenizer
 
