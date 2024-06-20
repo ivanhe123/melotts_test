@@ -96,7 +96,7 @@ def _get_initials_finals(word):
         finals.append(v)
     return initials, finals
 
-model_id = './bert-base-multilingual-uncased'
+model_id = 'google-bert/bert-base-multilingual-uncased'
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 def _g2p(segments):
     phones_list = []
